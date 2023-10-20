@@ -1,0 +1,73 @@
+/* 
+    Created on : Apr 21, 2023, 6:33:18 PM
+    Author     : LOH XIN JIE
+*/
+
+.myrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    border-radius: 25px;
+    box-shadow: 5px 5px 30px black;
+    margin: 20px;
+    width: 45%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.box1{
+    background-image: linear-gradient(rgba(52, 46, 46, 0.449),
+    rgba(52, 46, 46, 0.41)), url("/GUI_Assignment/Home/image/home.jpg");
+}
+
+.box2{
+    background-image: linear-gradient(rgba(52, 46, 46, 0.449),
+    rgba(52, 46, 46, 0.41)), url("/GUI_Assignment/Home/image/homeBg.jpg");
+}
+
+.box3{
+    background-image: linear-gradient(rgba(52, 46, 46, 0.449),
+    rgba(52, 46, 46, 0.41)), url("/GUI_Assignment/Home/image/N.jpg");
+}
+
+.box4{
+    background-image: linear-gradient(rgba(52, 46, 46, 0.449),
+    rgba(52, 46, 46, 0.41)), url("/GUI_Assignment/Home/image/G.jpg");
+}
+
+.hover-box{
+    border: none;
+    display: inline-block;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.332);
+    opacity: 0;
+}
+
+.box:hover > .hover-box{
+    opacity: 0.8;
+    transition: opacity 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.box:hover > .title-box{
+    display: none;
+}
+
+.title-box{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

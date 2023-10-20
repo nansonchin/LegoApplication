@@ -1,0 +1,149 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 20, 2023, 10:22:50 PM
+    Author     : guoc7
+*/
+
+.cart-item-table{
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 2px solid rgba(175, 175, 175, 0.3);
+    transition:.3s;
+    padding:1%;
+    border-radius: 10px;
+}
+
+.item-cart-desc-text{
+    display:flex;
+    justify-content: center;
+}
+
+.cart-item-lego-img{
+    max-width:100%;
+    height:20vh;
+    width:20vh;
+    object-fit:cover;
+}
+
+.cart-item-lego-item-container{
+    display:flex;
+    justify-content: center;
+    margin:auto;
+    text-align:center;
+    align-items: center;
+}
+
+.cart-item-lego-item-container {
+    display:flex;
+    justify-content: center;
+    margin:auto;
+    text-align:center;
+    align-items: center;
+}
+
+.cart-item-lego-item-container .item-cart-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-item-total-container{
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 2px solid rgba(175, 175, 175, 0.3);
+    transition:.3s;
+    padding:1%;
+    border-radius: 10px;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.cart-item-table .item-cart-line{
+    border-bottom:2px solid rgba(175, 175, 175, 0.3);
+}
+
+.cart-item-table .item-cart-line:last-child{
+    border-bottom:none;
+
+}
+
+.cart-item-purchase{
+    display:flex;
+    justify-content:flex-end;
+    gap:2%;
+}
+
+.cart-item-total .cart-item-total-sub-line{
+    border-bottom:2px solid rgba(175, 175, 175, 0.3);
+}
+
+.cart-item-total .cart-item-total-sub-line:last-child{
+    border-bottom:none;
+}
+
+
+.item-window-productQuantity{
+    display: flex;
+}
+
+.item-window-text{
+    color:#000000;
+
+}
+
+.cart-cross-container{
+    position:relative;
+}
+.cart-cross-icon{
+    font-size:15px;
+    position: absolute;
+    right:5%;
+    top:20px;
+    cursor:pointer;
+}
+
+.cart-cross-icon:hover{
+    color: #FDAFAD;
+
+}
+
+
+.item-window{
+    position: absolute;
+    background-color: #fff;
+    padding: 6%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70vw;
+    height: 70vh;
+    border-radius: 30px;
+    z-index: 10;
+    transition:.2s;
+}
+
+.hidden{
+    display: none;
+}
+
+.show{
+    display:block;
+}
+
+.product-cartList-false{
+    filter: brightness(50%)
+}
+
+.cart-discount{
+    text-decoration: line-through;
+    filter:brightness(70%);
+}
+.disabled{
+     pointer-events: none;
+  cursor: default;
+}

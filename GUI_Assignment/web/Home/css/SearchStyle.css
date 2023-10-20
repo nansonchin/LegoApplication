@@ -1,0 +1,20 @@
+/* 
+    Created on : Apr 20, 2023, 12:13:28 AM
+    Author     : LOH XIN JIE
+*/
+@charset "utf-8";
+
+.btn-custom{
+    background-color: #EEC170;
+    color: black;
+}
+
+.btn-custom:hover{
+    background-color: #D88373;
+    color: black;
+}
+
+.active{
+    color: #ffffff;
+}
+
